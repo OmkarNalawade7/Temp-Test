@@ -149,15 +149,22 @@ body{
     color: #FF5722;
     font-weight: 600;
 }
+
+/*ikde navbar lifecode ani slogan aahe*/
 .navbar-brand {
    height: auto; 
-    padding: 0; 
+    padding-left: 660px; 
     font-size: 18px; 
     line-height: 20px;
+    margin-right: -100px;
 }
-.navbar-nav {
+
+/*Ikde navbar aahe*/
+.navbar-nav 
+{
     float: right;
-    margin-top: 1.5em;
+    margin-top: -3em;
+    margin-right: -100px;
 }
 .navbar-default {
     border: none;
@@ -575,18 +582,10 @@ ul.callbacks_tabs.callbacks2_tabs a:after {
     margin-top: 1em;
     letter-spacing: 4px;
     text-transform: capitalize;
-    color: #000;
+    color: white;
     font-weight: 500;
 }
-.heading-agileinfo span:after {
-    content: '';
-    background: #e709c1;
-    height: 2px;
-    width: 70px;
-    position: absolute;
-    top: 132%;
-    right: 47%;
-}
+
 /*-- modal --*/
 .agileits-w3layouts-info img{
 	width:100%;
@@ -725,7 +724,7 @@ span.thr{
 }
 .services {
     padding: 5em 0;
-    background: url(../images/mid3.jpg) no-repeat 0px 0px;
+    background: url(../images/Our_Principal_Background.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1792,6 +1791,7 @@ section.team {
 		background: rgba(0, 0, 0, 0.83);
 		position: absolute;
 		width: 100%;
+		z-index: 9999;
 		z-index: 9999;
 	}
 	.navbar-toggle {
