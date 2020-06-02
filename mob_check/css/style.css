@@ -153,10 +153,10 @@ body{
 /*ikde navbar lifecode ani slogan aahe*/
 .navbar-brand {
    height: auto; 
-    padding-left: 660px; 
+    padding-left: 560px; 
     font-size: 18px; 
     line-height: 20px;
-    margin-right: -100px;
+    ;
 }
 
 /*Ikde navbar aahe*/
@@ -164,7 +164,7 @@ body{
 {
     float: right;
     margin-top: -3em;
-    margin-right: -100px;
+    ;
 }
 .navbar-default {
     border: none;
